@@ -1,9 +1,9 @@
 const BookingCTA = () => (
-    <section className="py-16 bg-blue-700 text-white text-center px-4">
-      <h2 className="text-3xl font-bold mb-4">Ready to Book a Repair?</h2>
+    <section className="px-4 py-16 text-center text-black bg-brand-light ">
+      <h2 className="mb-4 text-3xl font-bold">Ready to Book a Repair?</h2>
       <p className="mb-6 text-lg">Let our expert mechanics take care of it.</p>
-      <button className="bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100">
-        Book Now
+      <button className="px-6 py-3 font-bold text-white duration-200 rounded-full translation bg-brand-orange hover:bg-orange-700">
+        Get a Quote 
       </button>
     </section>
   );

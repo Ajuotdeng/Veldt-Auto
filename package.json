@@ -9,5 +9,8 @@
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "cd motor-repair-frontend && npm start",
     "start:backend": "cd motor-repair-backend && node server.js"
+  },
+  "dependencies": {
+    "lucide-react": "^0.545.0"
   }
 }
