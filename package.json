@@ -1,16 +1,5 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "concurrently": "^9.2.1",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.4"
-  },
-  "scripts": {
-    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "start:frontend": "cd motor-repair-frontend && npm start",
-    "start:backend": "cd motor-repair-backend && node server.js"
-  },
   "dependencies": {
-    "lucide-react": "^0.545.0"
+    "lucide-react": "^0.546.0"
   }
 }
